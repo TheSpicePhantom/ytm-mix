@@ -1,0 +1,212 @@
+YT Music Mix-Analyse Source-Available License
+==============================================
+
+Copyright (c) 2026 TheSpicePhantom
+Repository: https://github.com/TheSpicePhantom/ytm-mix
+
+This file contains the license text in German and English.
+Bei Widerspruch gilt der deutsche Text. / In case of conflict, the German text prevails.
+
+
+────────────────────────────────────────────────────────────────────────────
+Deutsch
+────────────────────────────────────────────────────────────────────────────
+
+Dieses Werk („Software“) umfasst den Quellcode, Builds, Dokumentation und
+zugehörige Dateien im genannten Repository.
+
+Die Software wird „source-available“ bereitgestellt: Der Quellcode ist
+öffentlich einsehbar. Dies ist keine OSI-zertifizierte Open-Source-Lizenz.
+
+
+1. Erlaubte Nutzung (privat / nicht kommerziell)
+------------------------------------------------
+
+Du darfst die Software:
+
+  a) privat und nicht kommerziell nutzen;
+  b) für den privaten Eigengebrauch lokal ändern;
+  c) den Quellcode lesen und studieren.
+
+„Nicht kommerziell“ bedeutet insbesondere: keine Nutzung in oder für
+geschäftliche, bezahlte, werbefinanzierte oder anderweitig gewinnorientierte
+Tätigkeit ohne ausdrückliche vorherige schriftliche Genehmigung des
+Copyright-Inhabers.
+
+
+2. Verbotener Vertrieb und Verkauf
+----------------------------------
+
+Ausdrücklich untersagt sind ohne vorherige schriftliche Genehmigung des
+Copyright-Inhabers:
+
+  a) der kommerzielle Vertrieb der Software (unverändert oder verändert);
+  b) der Verkauf der Software, von Kopien, Builds oder abgeleiteten Werken;
+  c) das Anbieten der Software gegen Entgelt (auch „Pay-what-you-want“,
+     Bundles, Premium-Downloads, geschlossene Marktplätze u. Ä.);
+  d) die Einbettung der Software in kommerzielle Produkte oder Dienste.
+
+Jede kommerzielle Nutzung oder jeder Vertrieb bedarf der ausdrücklichen
+vorherigen schriftlichen Genehmigung durch den Copyright-Inhaber
+(Repository-Inhaber: https://github.com/TheSpicePhantom/ytm-mix).
+
+
+3. Weitergabe und Modifikationen (Fork-Pflicht)
+-----------------------------------------------
+
+Wenn du die Software veränderst und die veränderte Version weitergibst,
+veröffentlichst, hostest oder anderweitig Dritten zugänglich machst, gilt:
+
+  a) Die Veränderung muss als öffentlicher Fork des Original-Repositories
+     erfolgen und öffentlich einsehbar bleiben
+     (Basis: https://github.com/TheSpicePhantom/ytm-mix).
+  b) Der Fork und jede veröffentlichte Kopie müssen klar und dauerhaft auf
+     das Original-Repository verlinken:
+     https://github.com/TheSpicePhantom/ytm-mix
+  c) Fehlt dieser Link in einer veröffentlichten oder vertriebenen
+     Modifikation, gilt das als Verletzung dieser Lizenz und als
+     Copyright-Verletzung (copyright infringement), soweit gesetzlich zulässig.
+
+Rein private Änderungen nur für den eigenen Rechner, die nicht weitergegeben
+oder veröffentlicht werden, unterliegen nicht der Fork-Pflicht aus 3a–3c,
+bleiben aber an die übrigen Bestimmungen dieser Lizenz gebunden
+(insbesondere Abschnitte 1, 2 und 4).
+
+
+4. Keine Haftung / Missbrauch
+-----------------------------
+
+DIE SOFTWARE WIRD OHNE JEDE GEWÄHRLEISTUNG BEREITGESTELLT, WEDER AUSDRÜCKLICH
+NOCH STILLSCHWEIGEND, EINSCHLIESSLICH – ABER NICHT BESCHRÄNKT AUF –
+GEWÄHRLEISTUNGEN DER MARKTGÄNGIGKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK
+UND DER NICHTVERLETZUNG VON RECHTEN DRITTER.
+
+IN KEINEM FALL HAFTEN DER COPYRIGHT-INHABER ODER BEITRAGENDE FÜR SCHÄDEN
+JEGLICHER ART, DIE AUS DER NUTZUNG ODER DER UNMÖGLICHKEIT DER NUTZUNG DER
+SOFTWARE ENTSTEHEN – EINSCHLIESSLICH FOLGE-, NEBEN- ODER SCHADENSERSATZANSPRÜCHE
+–, SELBST WENN AUF DIE MÖGLICHKEIT SOLCHER SCHÄDEN HINGEWIESEN WURDE.
+
+Die Bereitstellung der Software begründet keine Verantwortung für Missbrauch,
+illegale Nutzung oder Verstöße Dritter gegen Nutzungsbedingungen anderer
+Software oder Dienste. Die Nutzung erfolgt auf eigene Gefahr und Verantwortung.
+
+
+5. Vorbehalt der Rechte
+-----------------------
+
+Alle Rechte, die in dieser Lizenz nicht ausdrücklich eingeräumt werden,
+bleiben dem Copyright-Inhaber vorbehalten.
+
+Eine Verletzung dieser Lizenz beendet die hier eingeräumten Nutzungsrechte
+automatisch.
+
+
+6. Anwendbarkeit
+----------------
+
+Sollte eine Bestimmung dieser Lizenz unwirksam sein, bleibt der Rest
+unberührt. Es gilt das zwingende Recht am Wohnsitz bzw. Sitz des
+Copyright-Inhabers, soweit keine andere zwingende Regelung entgegensteht.
+
+Kontakt / Genehmigungen für kommerzielle Nutzung:
+über das GitHub-Repository https://github.com/TheSpicePhantom/ytm-mix
+
+
+────────────────────────────────────────────────────────────────────────────
+English
+────────────────────────────────────────────────────────────────────────────
+
+This work (“Software”) includes the source code, builds, documentation, and
+related files in the repository named above.
+
+The Software is provided as “source-available”: the source code is publicly
+viewable. This is not an OSI-approved open-source license.
+
+
+1. Permitted use (private / non-commercial)
+-------------------------------------------
+
+You may:
+
+  a) use the Software privately and non-commercially;
+  b) modify it locally for your own private use;
+  c) read and study the source code.
+
+“Non-commercial” means in particular: no use in or for business, paid,
+advertising-funded, or otherwise profit-oriented activity without the prior
+express written permission of the copyright holder.
+
+
+2. Prohibited distribution and sale
+-----------------------------------
+
+Without the prior express written permission of the copyright holder, the
+following are expressly prohibited:
+
+  a) commercial distribution of the Software (modified or unmodified);
+  b) sale of the Software, copies, builds, or derivative works;
+  c) offering the Software for a fee (including “pay-what-you-want”, bundles,
+     premium downloads, closed marketplaces, and the like);
+  d) embedding the Software in commercial products or services.
+
+Any commercial use or distribution requires the prior express written
+permission of the copyright holder (repository owner:
+https://github.com/TheSpicePhantom/ytm-mix).
+
+
+3. Redistribution and modifications (fork requirement)
+------------------------------------------------------
+
+If you modify the Software and redistribute, publish, host, or otherwise make
+the modified version available to third parties:
+
+  a) The modification must be published as a public fork of the original
+     repository and remain publicly viewable
+     (base: https://github.com/TheSpicePhantom/ytm-mix).
+  b) The fork and every published copy must clearly and permanently link to
+     the original repository:
+     https://github.com/TheSpicePhantom/ytm-mix
+  c) Absence of that link in a published or distributed modification is a
+     breach of this license and copyright infringement, to the extent
+     permitted by law.
+
+Private changes kept only on your own machine and not redistributed or
+published are not subject to the fork requirement in 3a–3c, but remain bound
+by the other terms of this license (especially sections 1, 2, and 4).
+
+
+4. No warranty / misuse
+-----------------------
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT,
+OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Providing the Software does not create any responsibility for misuse, illegal
+use, or third-party violations of other software or service terms. Use is at
+your own risk and responsibility.
+
+
+5. Reservation of rights
+------------------------
+
+All rights not expressly granted in this license are reserved by the
+copyright holder.
+
+A breach of this license automatically terminates the rights granted herein.
+
+
+6. Severability and governing law
+---------------------------------
+
+If any provision of this license is held unenforceable, the remaining
+provisions remain in effect. Mandatory law at the copyright holder’s place of
+residence or seat applies, unless other mandatory rules prevail.
+
+Contact / permission for commercial use:
+via the GitHub repository https://github.com/TheSpicePhantom/ytm-mix
