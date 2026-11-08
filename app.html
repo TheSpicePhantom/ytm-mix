@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>YT Music Mix-Analyse</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header>
+  <div class="brand"><span class="logo">♫</span><div><h1>Mix-Analyse</h1><p id="plTitle">Keine Playlist geladen</p></div></div>
+  <div class="hstats" id="hstats"></div>
+</header>
+
+<main>
+  <section class="card" id="inputCard">
+    <div class="row between">
+      <h2>Titelliste</h2>
+      <button class="ghost" id="toggleInput">Liste bearbeiten</button>
+    </div>
+    <div id="inputBox" hidden>
+      <p class="hint">Eine Zeile pro Titel im Format <code>Interpret - Titel</code>. Für die YT-Analyse Playlist über den Knopf „♫ Mix-Analyse“ auf music.youtube.com laden (Video-IDs erforderlich).</p>
+      <textarea id="trackInput" rows="8" spellcheck="false" placeholder="Daft Punk - One More Time&#10;Avicii - Levels"></textarea>
+      <div class="row"><button class="ghost" id="applyInput">Liste übernehmen</button></div>
+    </div>
+    <div class="row">
+      <button class="primary" id="analyzeBtn">Analysieren</button>
+      <button class="ghost" id="stopBtn" hidden>Abbrechen</button>
+      <label class="chk"><input type="checkbox" id="reanalyze"> Cache ignorieren</label>
+      <span class="hint" style="margin:0">Analyse spielt jeden Titel im YT-Music-Tab ab (~32&nbsp;s Aufnahme). Fortschritt erscheint dort <strong>über dem Knopf „♫ Mix-Analyse“</strong> — diesen Tab im Vordergrund lassen, die Analyse-Seite kann im Hintergrund bleiben.</span>
+    </div>
+    <div class="progress" id="progress" hidden><div class="bar" id="bar"></div><span id="progText"></span></div>
+  </section>
+
+  <section class="card" id="sortCard">
+    <h2>Sortierung nach Übergangspassung</h2>
+    <div class="grid">
+      <label class="sel">Modus
+        <select id="mode">
+          <option value="flow">Bester Fluss</option>
+          <option value="build">Energie-Aufbau</option>
+          <option value="winddown">Energie-Abbau</option>
+          <option value="peak">Energie-Peak (Bogen)</option>
+          <option value="mood">Mood (Stimmungsfluss)</option>
+        </select>
+      </label>
+      <label class="sel">Starttitel
+        <select id="startSel"><option value="">Automatisch</option></select>
+      </label>
+      <label class="rng">Tonart <input type="range" id="wKey" min="0" max="3" step="0.1" value="1"><b id="wKeyV"></b></label>
+      <label class="rng">Tempo <input type="range" id="wTempo" min="0" max="3" step="0.1" value="1.5"><b id="wTempoV"></b></label>
+      <label class="rng">Energie <input type="range" id="wEnergy" min="0" max="3" step="0.1" value="0.6"><b id="wEnergyV"></b></label>
+      <label class="rng">Groove/Takt <input type="range" id="wGroove" min="0" max="3" step="0.1" value="0.3"><b id="wGrooveV"></b></label>
+    </div>
+    <div class="row">
+      <button class="primary" id="sortBtn" disabled>Nach Passung sortieren</button>
+      <button class="ghost" id="autoSortBtn" disabled title="Titel verschieben bis lokal höchste Ø-Passung (Modus &amp; Slider)">Auto-Sort</button>
+      <div class="seg" id="viewSeg"><button data-v="orig" class="on">Original</button><button data-v="sorted" disabled>Sortiert</button></div>
+      <span class="spacer"></span>
+      <button class="ghost" id="csvBtn" disabled>CSV</button>
+      <button class="ghost" id="copyBtn" disabled>Liste kopieren</button>
+      <button class="primary alt" id="saveBtn" disabled>Als neue Playlist in YT Music speichern</button>
+    </div>
+    <p class="hint" id="saveMsg"></p>
+  </section>
+
+  <section class="card tablecard">
+    <table id="tbl">
+      <thead><tr>
+        <th>#</th><th></th><th>Titel</th><th>BPM</th><th>Tonart</th><th>Camelot</th><th>Takt</th><th>Energie</th><th>Groove</th><th>Übergang →</th><th>Status</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="hint foot">Audio direkt aus YouTube Music (Tab-Aufnahme während der Wiedergabe). Tonart-Schätzungen liegen typischerweise exakt oder eine Camelot-Stufe daneben; BPM und Camelot sind per Klick korrigierbar. Ergebnisse werden pro Video-ID zwischengespeichert.</p>
+  </section>
+</main>
+<audio id="player" preload="none"></audio>
+<script type="module" src="app.js"></script>
+</body>
+</html>
